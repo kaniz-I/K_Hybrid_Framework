@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AllSuites">
+  <test thread-count="4" name="FireFoxTesting">
+  <parameter name="Browser" value="FireFox"/>
+    <classes>
+      <class name="test_Ng_challenge.CrossBrowser_Test"/>
+    </classes>
+  </test> <!-- Browser -->
+  
+  <test thread-count="4" name="ChroMeTesting">
+  <parameter name="Browser" value="ChroMe"/>
+    <classes>
+      <class name="test_Ng_challenge.CrossBrowser_Test"/>
+    </classes>
+  </test> <!-- Browser -->
+  
+   <test thread-count="4" name="eDgETesting">
+  <parameter name="Browser" value="eDgE"/>
+    <classes>
+      <class name="test_Ng_challenge.CrossBrowser_Test"/>
+    </classes>
+  </test> <!-- Browser -->
+  
+   <test thread-count="4" name="OPeRaTesting">
+  <parameter name="Browser" value="OPeRa"/>
+    <classes>
+      <class name="test_Ng_challenge.CrossBrowser_Test"/>
+    </classes>
+  </test> <!-- Browser -->
+</suite> <!-- AllSuites -->

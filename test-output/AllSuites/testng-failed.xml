@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AllSuites]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FireFoxTesting(failed)">
+    <parameter name="Browser" value="FireFox"/>
+    <classes>
+      <class name="test_Ng_challenge.CrossBrowser_Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="SignIn"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test_Ng_challenge.CrossBrowser_Test -->
+    </classes>
+  </test> <!-- FireFoxTesting(failed) -->
+  <test thread-count="5" name="ChroMeTesting(failed)">
+    <parameter name="Browser" value="ChroMe"/>
+    <classes>
+      <class name="test_Ng_challenge.CrossBrowser_Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="SignIn"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test_Ng_challenge.CrossBrowser_Test -->
+    </classes>
+  </test> <!-- ChroMeTesting(failed) -->
+  <test thread-count="5" name="eDgETesting(failed)">
+    <parameter name="Browser" value="eDgE"/>
+    <classes>
+      <class name="test_Ng_challenge.CrossBrowser_Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="SignIn"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test_Ng_challenge.CrossBrowser_Test -->
+    </classes>
+  </test> <!-- eDgETesting(failed) -->
+  <test thread-count="5" name="OPeRaTesting(failed)">
+    <parameter name="Browser" value="OPeRa"/>
+    <classes>
+      <class name="test_Ng_challenge.CrossBrowser_Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="SignIn"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test_Ng_challenge.CrossBrowser_Test -->
+    </classes>
+  </test> <!-- OPeRaTesting(failed) -->
+</suite> <!-- Failed suite [AllSuites] -->
